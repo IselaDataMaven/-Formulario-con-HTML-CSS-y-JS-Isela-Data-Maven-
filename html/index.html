@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <!-- Contenedor de estrellas -->
+    <div class="estrellas"></div>
+
+    <header>
+        <section>
+            <form action="">
+                <h2>Contacto</h2>
+                <p>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+
+                <p>
+                    <label for="coment">Comentario</label>
+                    <textarea name="coment" id="coment" rows="5" required></textarea>
+                </p>
+
+                <button type="submit" id="enviar">Enviar</button>
+                <button type="reset" id="cancelar">Cancelar</button>
+            </form>
+        </section>
+    </header>
+
+    <script src="../javascript/main.js"></script>
+</body>
+
+</html>
